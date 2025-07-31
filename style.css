@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(59, 67, 79);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+  flex: 1;
+  margin-top: 2rem;
+}
+
+h1,
+h2 {
+  color: rgb(0, 255, 183);
+}
+
+h1 {
+  font-size: 7rem;
+  font-family: "Kaushan Script";
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+  text-align: center;
+}
+
+p {
+  font-family: "Caveat", cursive;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+img {
+  width: 200px;
+}
+
+.footer {
+  margin-bottom: 4rem;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  padding: 3px;
+  border-radius: 10px;
+  background-color: rgb(0, 255, 183);
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+  width: 7rem;
+}
+
+.btn:hover {
+  background-color: rgba(0, 255, 183, 0.739);
+}
