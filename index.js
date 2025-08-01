@@ -16,13 +16,13 @@ function funName() {
     .querySelector(".img1")
     .setAttribute(
       "src",
-      "../Dicee Challenge - Starting Files/images/" + dice1 + ".png"
+      "./images/" + dice1 + ".png"
     );
   document
     .querySelector(".img2")
     .setAttribute(
       "src",
-      "../Dicee Challenge - Starting Files/images/" + dice2 + ".png"
+      "./images/" + dice2 + ".png"
     );
 
   if (rand1 > rand2) {
